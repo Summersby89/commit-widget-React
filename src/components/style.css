@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    background: #e5e5e5;
+}
+
+.comments-list {
+    width: 30vw;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.MuiButtonBase-root.MuiButton-root {
+    margin-bottom: 10px;
+}
+
+.MuiPaper-root {
+    position: relative;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ol {
+    padding: 0;
+}
+
+#root>.MuiPaper-root {
+    margin-top: 20vh;
+}
+
+.js-delete-comment.js-delete-comment {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.secondary-heading {
+    display: inline list-item;
+}

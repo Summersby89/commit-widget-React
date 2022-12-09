@@ -1,0 +1,52 @@
+{
+  "name": "@summersby/comments-widget",
+  "version": "1.0.0",
+  "description": "\u0016\u0016simple comments-widget",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "react",
+    "comments",
+    "widget",
+    "materials"
+  ],
+  "author": {
+    "name": "Sergei Pashkov",
+    "email": "summersby89@gmail.com",
+    "url": "https://summersby.ru"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Summersby89/Apps"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "core-js": "^3.26.1",
+    "fontsource-roboto": "^3.1.5",
+    "material-design-icons": "^3.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
